@@ -21,3 +21,6 @@ The goal of this project is to apply PCA to the Parkinson's Disease Classificati
 The expectation-maximization algorithm is an iterative method to find maximum likelihood (ML) estimates of parameters in statistical models. The E-M algorithm alternates between performing an expectation (E) step, which creates a function for the expectation of the log-likelihood evaluated using the current estimate for the parameters, and a maximization (M) step, which computes parameters maximizing the expected log-likelihood found on the E step. This alternation repeats until convergence.
 
 The goal of this project is to perform E-M first on a sample Gaussian mixture model (GMM). Doing this will prove that the algorithm works, since the parameters of the model are already known.
+
+# Logistic Regression
+This project classifies emails as "spam" (1) or "non-spam" (0) using a logistic regression model. Since logistic regression does not have a closed form solution, gradient descent is used to obtain the parameter 𝜃. 
