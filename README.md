@@ -22,5 +22,11 @@ The expectation-maximization algorithm is an iterative method to find maximum li
 
 The goal of this project is to perform E-M first on a sample Gaussian mixture model (GMM). Doing this will prove that the algorithm works, since the parameters of the model are already known.
 
+# Clustering (K-means & DP-means)
+
+In this project I implement K-Means algorithm on simple Gaussian data from scratch (without using the built-in scikit-learn method for k-means). The goal is to get a deep understanding of the inner workings of this widely-used algorithm get a sensibility of how variations in the parameters affect the speed and quality of the model.
+
+The second part of the project implements DP-means, which is a clustering algorithm that is sililar to K-means but adds the parameter 𝜆. The purpose of the 𝜆 parameter is to penalize the number of clusters that gets formed in the algorithm. DP-means tries to minimize the distance from the data points to their respective cluster means, therefore without this parameter the number of clusters k would equal the number of data points. By adding the term 𝜆*k in the objective function, we ensure that the algorithm does not assign their own individual cluster to each observation, but rather gives you clusters of different sizes.
+
 # Logistic Regression
 This project classifies emails as "spam" (1) or "non-spam" (0) using a logistic regression model. Since logistic regression does not have a closed form solution, gradient descent is used to obtain the parameter 𝜃. 
