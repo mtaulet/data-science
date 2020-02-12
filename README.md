@@ -13,3 +13,6 @@ Given a dataset with details about the creation of 12,000 online accounts for an
 Eigenfaces is the name given to a set of eigenvectors (principal components) when they are used in the computer vision problem of human face recognition. These eigenvectors/principal components can be derived from the covariance matrix of 𝑋, where 𝑋 is a 𝑑  x  𝑛  matrix such that each column of 𝑋 represents an image. (One of the ways of interpreting PCA is projecting data onto the  𝑘  leading eigenvectors of the sample covariance matrix).
 
 The goal of this project is to extract the top eigenvectors of a dataset of celebrity images and reconstruct the images as faithfully to the originals as possible by projecting the data onto the top eigenvectors to reduce the size of the data as efficiently as possible.
+
+# Predicting parkinson's
+The goal of this project is to apply PCA to the Parkinson's Disease Classification dataset and then perform classification using the k-nearest neighbors algorithm.
